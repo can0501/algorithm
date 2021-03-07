@@ -1,0 +1,21 @@
+cmake_minimum_required(VERSION 3.16)
+project(algorithm)
+
+set(CMAKE_CXX_STANDARD 14)
+
+# 遍历项目根目录下所有
+#的 .cpp 文件1
+
+
+
+
+
+
+
+add_executable(lcs lcs.cpp)
+add_executable(list list.cpp)
+add_executable(main main.cpp)
+add_executable(posmidtree posmidtree.cpp)
+add_executable(qsort qsort.cpp)
+add_executable(union-find union-find.cpp)
+add_executable(guibing guibing.cpp)
