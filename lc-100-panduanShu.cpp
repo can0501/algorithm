@@ -32,7 +32,6 @@ public:
 
 int main() {
     vector<int> q = {0};
-    Solution s;
-    cout << s.containsDuplicate(q);
+
     return 0;
 }
