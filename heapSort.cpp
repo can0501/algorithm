@@ -29,12 +29,12 @@ void build_heap(int *l, int n, int size_t) {
 void heap_sort(int *l, int n) {
     //从第一个非叶子节点构建最大堆
     for (int i = size / 2 - 1; i >= 0; i--) {
-        build_heap(a, i, size);
+        build_heap(l, i, size);
     }
     for (int i = 0; i < n; i++) {
-        swap(a[0], a[size - i]);
+        swap(l[0], l[size - i]);
         //重新构建最大堆
-        build_heap(a, 0, n - i - 1);
+        build_heap(l, 0, n - i - 1);
     }
 }
 
