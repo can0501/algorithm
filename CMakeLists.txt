@@ -26,3 +26,4 @@ add_executable(lc-100-panduanShu lc-100-panduanShu.cpp)
 add_executable(lc-617-heBingShu lc-617-heBingShu.cpp)
 
 add_executable(two-stack-to-queue two-stack-to-queue.cpp)
+add_executable(test test.cpp)
